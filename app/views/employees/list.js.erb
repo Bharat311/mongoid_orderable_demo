@@ -1,0 +1,5 @@
+$('#employee_list').html('<%= "There are no items to show" if @list.blank? %>')
+
+<% @list.each do |employee| %>
+  $('#employee_list').append($('<p>', { text: '<%= j employee.name %>' }));
+<% end %>

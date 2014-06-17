@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Bharat311/mongoid_orderable.git
-  revision: 0e965ebc7865482d3d5c6b505decb4179c90f804
+  revision: c588a06a1973b65437622bd9398b9215f96c0757
   branch: f-multi-col-support
   specs:
     mongoid_orderable (4.1.0)
@@ -108,7 +108,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.39)
-    uglifier (2.5.0)
+    uglifier (2.5.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 

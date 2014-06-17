@@ -1,5 +1,18 @@
-<h1>Listing employees</h1>
+<h1>Mongoid Orderable Demo</h1>
 
+<hr/>
+
+<h2>Employees:</h2>
+
+<br/>
+
+<%= form_tag order_employees_path, method: :get do |f| %>
+  Orderable Column
+  <%= select_tag :column, options_for_select([:position, :serial_no], selected: session[:order_by]) %>
+  <%= submit_tag "Set"%>
+<% end %>
+
+<br/>
 
 <table>
   <tr>

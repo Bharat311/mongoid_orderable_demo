@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Bharat311/mongoid_orderable.git
-  revision: c588a06a1973b65437622bd9398b9215f96c0757
+  revision: bcf0e591cb0f056ada80c7a9ac854208044f1a8e
   branch: f-multi-col-support
   specs:
     mongoid_orderable (4.1.0)

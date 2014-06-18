@@ -2,10 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.18'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'mongoid'
+
 gem 'mongoid_orderable', github: 'Bharat311/mongoid_orderable', branch: 'f-multi-col-support'
 
 # Gems used only for assets and not required

@@ -4,7 +4,7 @@ class Employee
 
   field :name,      type: String
 
-  orderable column: :serial_no
-  orderable base: 0
+  orderable column: :serial_no, default: true
+  orderable column: :pos, base: 0, as: :position
 
 end

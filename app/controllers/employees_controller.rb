@@ -48,7 +48,7 @@ class EmployeesController < ApplicationController
 
   def move
     @employee = Employee.find(params[:employee_id])
-    @employee.move_to! order_column, params[:position].to_i
+    @employee.send("move_#{order_column}_to!", params[:position].to_i)
 
     redirect_to employees_url
   end
